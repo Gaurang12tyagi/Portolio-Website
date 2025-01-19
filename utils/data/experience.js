@@ -1,14 +1,14 @@
 export const experiences = [
   {
     id: 1,
-    title: "Full Stack Developer",
+    title: "Frontend Developer",
     company: "Grape Technology | Remote, Dubai",
-    duration: "10/2022 - 12/2024",
+    duration: "12/2023 - Currrently Working Here",
   },
   {
     id: 2,
-    title: "Full Stack Developer",
-    company: "Digital Marketing Rajasthan | Rajasthan, Jaipur",
-    duration: " 02/2022 - 09/2022",
+    title: "Software Development Intern",
+    company: "Ksolves India Ltd. | Noida, Uttar Pradesh",
+    duration: " 07/2023 - 11/2023",
   },
 ];

@@ -11,9 +11,9 @@ import ScrollToTop from "./components/helper/scroll-to-top";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Yash Soni - Software Developer",
+  title: "Portfolio of Gaurang Tyagi - Froentend Developer",
   description:
-    "This is the portfolio of Yash Soni. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "This is the portfolio of Gaurang Tyagi. I am a frontend developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
 };
 
 export default function RootLayout({ children }) {

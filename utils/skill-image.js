@@ -72,6 +72,10 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
+import problemsolving from "/public/svg/skills/problemsolving.svg";
+import oops from "/public/svg/skills/oops.svg";
+import agilemethodologies from "/public/svg/skills/agilemethodologies.svg";
+
 
 
 export const skillsImage = (skill) => {
@@ -225,6 +229,13 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case 'canva':
       return canva;
+    case 'oops':
+      return oops;
+    case 'agile methodologies':
+      return agilemethodologies;
+    case 'problem solving':
+      return problemsolving;
+
     default:
       break;
   }

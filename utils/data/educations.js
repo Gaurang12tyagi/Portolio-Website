@@ -2,13 +2,15 @@ export const educations = [
   {
     id: 1,
     title: "Master of Computer Applications",
-    duration: "05/2024",
-    institution: "Rajasthan Technical University | Jaipur",
+    duration: "09/2022 | 08/2024",
+    institution: "Lovely Professional University | Jalandhar (Punjab)",
+    cgpa: "CGPA : 8.8"
   },
   {
     id: 2,
     title: "Bachelor of Computer Applications",
-    duration: "07/2022",
-    institution: "Mahaveer College of Commerce | Jaipur, Rajasthan",
+    duration: "08/2022",
+    institution: "Maharaja College | Jaipur, Rajasthan",
+    cgpa: "CGPA : 8.0"
   },
 ];
