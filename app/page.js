@@ -7,7 +7,6 @@ import Experience from "./components/homepage/experience";
 import HeroSection from "./components/homepage/hero-section";
 import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
-import { document } from 'react-dom';
 
 async function getData() {
   const res = await fetch(
