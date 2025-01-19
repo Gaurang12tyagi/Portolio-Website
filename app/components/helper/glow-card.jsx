@@ -21,6 +21,7 @@ const GlowCard = ({ children, identifier }) => {
         vertical: false,
         opacity: 0,
       };
+      console.log("CONFIG", CONFIG)
 
       const UPDATE = (event) => {
         for (const CARD of CARDS) {
