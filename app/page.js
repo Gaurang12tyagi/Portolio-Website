@@ -29,7 +29,7 @@ async function getData() {
 
 export default async function Home() {
   const blogs = await getData();
-  console.log("hi");
+
 
 
   return (
