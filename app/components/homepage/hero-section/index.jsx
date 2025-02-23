@@ -132,6 +132,12 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">React Router</span>
                 <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Node Js</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Express Js</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Mongo DB</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Git</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MySQL</span>
