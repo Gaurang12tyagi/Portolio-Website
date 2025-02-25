@@ -7,7 +7,7 @@ export const experiences = [
   },
   {
     id: 2,
-    title: "Software Development Intern",
+    title: "Software Development Engineer",
     company: "Ksolves India Ltd. | Noida, Uttar Pradesh",
     duration: " 07/2023 - 11/2023",
   },
