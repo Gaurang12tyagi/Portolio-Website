@@ -6,9 +6,9 @@ import travel from "/public/image/travel.jpg";
 export const projectsData = [
   {
     id: 1,
-    name: "Amazon Clone (MERN Stack)",
+    name: "E-Commerce Platform (MERN Stack)",
     description:
-      "This project is a full-stack Amazon clone built using the MERN stack (MongoDB, Express.js, React, and Node.js). It replicates key features of the Amazon website, including dynamic product listings, user authentication, and a fully functional shopping cart. The application allows users to browse items, add or remove products from their cart, and manage cart quantities with real-time updates. The frontend is developed using React for a responsive user interface, Redux for state management, and CSS for professional look, while the backend is powered by Node.js and Express.js to provide secure and scalable APIs. User authentication is implemented with JWT for secure sessions, and MongoDB is used to store user, product, and cart data. This clone delivers a seamless shopping experience with a user interface closely resembling Amazon's.",
+      "This project is a full-stack E-commerce platform built using the MERN stack (MongoDB, Express.js, React, and Node.js). It replicates key features of the Amazon website, including dynamic product listings, user authentication, and a fully functional shopping cart. The application allows users to browse items, add or remove products from their cart, and manage cart quantities with real-time updates. The frontend is developed using React for a responsive user interface, Redux for state management, and CSS for professional look, while the backend is powered by Node.js and Express.js to provide secure and scalable APIs. User authentication is implemented with JWT for secure sessions, and MongoDB is used to store user, product, and cart data. This clone delivers a seamless shopping experience with a user interface closely resembling Amazon's.",
     tools: [
       "HTML",
       "CSS",

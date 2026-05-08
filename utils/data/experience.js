@@ -1,14 +1,15 @@
 export const experiences = [
   {
     id: 1,
-    title: "MERN Stack Developer",
-    company: "Grape Technology | Remote, Dubai",
-    duration: "12/2023 - Currrently Working Here",
+    title: "Software Engineer",
+    company: "Sarv.com | Jaipur, Rajasthan",
+    duration: "05/2025 - Currrently Working Here",
   },
   {
     id: 2,
-    title: "Software Development Engineer",
-    company: "Ksolves India Ltd. | Noida, Uttar Pradesh",
-    duration: " 07/2023 - 11/2023",
+    title: "MERN Stack Developer",
+    company: "Grape Technology | Remote, Dubai",
+    duration: "05/2023 - 05/2025",
   },
+
 ];

@@ -3,11 +3,11 @@ export const personalData = {
   profile: "/GaurangProfilePic.jpg",
   designation: "Software Development Engineer",
   description:
-    `MERN stack Engineer with 1.8+ years of experience in building responsive and scalable web applications using tech stack MERN.
- (Mongo DB, Express.Js, React.Js, Node.Js). Skilled in state management, and performance optimization. Competent in developing
- clean, reusable, and maintainable APIs using Node.js and Express.js to support robust web client interactions. Expertise in version
- control systems like Git and GitHub and database technologies such as SQL and MySQL. Strong foundation in Agile methodologies,
- unit testing, and problem-solving`,
+    `Results-driven Software Engineer with 3 years of experience building scalable web applications using MERN Stack, Next.js,
+and microservices architecture. Proven track record of improving application performance by 15-20% through optimization
+techniques and reducing code redundancy by 25%. Expertise in developing RESTful APIs, implementing state management
+solutions, and delivering high-quality code in Agile environments. Strong problem-solving abilities with excellent
+communication skills and proficiency in modern development practices.`,
   email: "gaurangtyagi95@gmail.com",
   phone: "+91 9785606965",
   address: "Jaipur, Rajasthan",
