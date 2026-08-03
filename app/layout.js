@@ -10,9 +10,9 @@ import ScrollToTop from "./components/helper/scroll-to-top";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Gaurang Tyagi - Frontend Developer",
+  title: "Portfolio of Gaurang Tyagi - Full Stack Software Engineer",
   description:
-    "This is the portfolio of Gaurang Tyagi. I am a frontend developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "Portfolio of Gaurang Tyagi, a Full Stack Software Engineer with 3+ years of experience building scalable web applications with the MERN Stack, Next.js, and microservices architecture.",
 };
 
 export default function RootLayout({ children }) {

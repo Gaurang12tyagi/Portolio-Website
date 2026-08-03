@@ -1,13 +1,13 @@
 export const personalData = {
   name: "Gaurang Tyagi",
-  profile: "/GaurangProfilePic.jpg",
-  designation: "Software Development Engineer",
+  profile: "/GaurangProfilePic.png",
+  designation: "Full Stack Software Engineer",
   description:
-    `Results-driven Software Engineer with 3 years of experience building scalable web applications using MERN Stack, Next.js,
-and microservices architecture. Proven track record of improving application performance by 15-20% through optimization
-techniques and reducing code redundancy by 25%. Expertise in developing RESTful APIs, implementing state management
-solutions, and delivering high-quality code in Agile environments. Strong problem-solving abilities with excellent
-communication skills and proficiency in modern development practices.`,
+    `Full Stack Software Engineer with 3+ years of experience designing, building, and scaling production-grade web
+applications using the MERN Stack, Next.js (SSR/SSG/ISR), and microservices architecture. Proven track record of
+reducing API query time by 40%, improving mobile UX scores by 25%, and cutting CI/CD release cycles by 35%.
+Awarded Employee of the Quarter at Grape Technology, Dubai. Passionate about clean, well-tested code and
+delivering measurable engineering outcomes in Agile teams.`,
   email: "gaurangtyagi95@gmail.com",
   phone: "+91 9785606965",
   address: "Jaipur, Rajasthan",

@@ -1,9 +1,9 @@
 // @flow strict
 
-import { skillsData } from "@/utils/data/skills";
+import { skillCategories } from "@/utils/data/skills";
 import { skillsImage } from "@/utils/skill-image";
 import Image from "next/image";
-import Marquee from "react-fast-marquee";
+import GlowCard from "../../helper/glow-card";
 
 function Skills() {
   return (
@@ -26,43 +26,40 @@ function Skills() {
         </div>
       </div>
 
-      <div className="w-full my-12">
-        <Marquee
-          gradient={false}
-          speed={80}
-          pauseOnHover={true}
-          pauseOnClick={true}
-          delay={0}
-          play={true}
-          direction="left"
-        >
-          {skillsData.map((skill, id) => (
-            <div className="w-36 min-w-fit h-fit flex flex-col items-center justify-center transition-all duration-500 m-3 sm:m-5 rounded-lg group relative hover:scale-[1.15] cursor-pointer"
-              key={id}>
-              <div className="h-full w-full rounded-lg border border-[#1f223c] bg-[#11152c] shadow-none shadow-gray-50 group-hover:border-violet-500 transition-all duration-500">
-                <div className="flex -translate-y-[1px] justify-center">
-                  <div className="w-3/4">
-                    <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-violet-500 to-transparent" />
-                  </div>
-                </div>
-                <div className="flex flex-col items-center justify-center gap-3 p-6">
-                  <div className="h-8 sm:h-10">
-                    <Image
-                      src={skillsImage(skill)?.src}
-                      alt={skill}
-                      width={40}
-                      height={40}
-                      className="h-full w-auto rounded-lg"
-                    />
-                  </div>
-                  <p className="text-white text-sm sm:text-lg">
-                    {skill}
-                  </p>
-                </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 my-12">
+        {skillCategories.map((group) => (
+          <GlowCard key={group.category} identifier={`skill-${group.category.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}>
+            <div className="p-6">
+              <p className="text-[#16f2b3] text-sm sm:text-base font-semibold uppercase tracking-wider mb-4">
+                {group.category}
+              </p>
+              <div className="flex flex-wrap gap-2.5">
+                {group.skills.map((skill) => {
+                  const icon = skillsImage(skill);
+                  return (
+                    <span
+                      key={skill}
+                      className="flex items-center gap-2 rounded-full border border-[#26294a] bg-[#0d1224] px-3 py-1.5 text-xs sm:text-sm text-gray-200 transition-all duration-300 hover:scale-105 hover:border-violet-500 hover:text-white"
+                    >
+                      {icon ? (
+                        <Image
+                          src={icon.src}
+                          alt={skill}
+                          width={16}
+                          height={16}
+                          className="h-4 w-4"
+                        />
+                      ) : (
+                        <span className="h-1.5 w-1.5 rounded-full bg-violet-500" />
+                      )}
+                      {skill}
+                    </span>
+                  );
+                })}
               </div>
             </div>
-          ))}
-        </Marquee>
+          </GlowCard>
+        ))}
       </div>
     </div>
   );

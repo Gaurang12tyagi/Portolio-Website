@@ -1,5 +1,6 @@
 // @flow strict
 
+import Image from 'next/image';
 import * as React from 'react';
 
 function ProjectCard({ project }) {
@@ -20,6 +21,17 @@ function ProjectCard({ project }) {
           {project.name}
         </p>
       </div>
+      {project.image && (
+        <div className="mx-4 lg:mx-8 h-48 sm:h-64 relative overflow-hidden rounded-md border border-[#1b2c68a0]">
+          <Image
+            src={project.image}
+            alt={project.name}
+            fill
+            sizes="(max-width: 768px) 100vw, 640px"
+            className="object-cover"
+          />
+        </div>
+      )}
       <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
         <code className="font-mono text-xs md:text-sm lg:text-base">
           <div className="blink">
