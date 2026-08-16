@@ -6,20 +6,17 @@ import travel from "/public/image/travel.jpg";
 export const projectsData = [
   {
     id: 1,
-    name: "E-Commerce Platform (MERN Stack)",
+    name: "E-Commerce Platform with Real-Time Features",
     description:
-      "This project is a full-stack E-commerce platform built using the MERN stack (MongoDB, Express.js, React, and Node.js). It replicates key features of the Amazon website, including dynamic product listings, user authentication, and a fully functional shopping cart. The application allows users to browse items, add or remove products from their cart, and manage cart quantities with real-time updates. The frontend is developed using React for a responsive user interface, Redux for state management, and CSS for professional look, while the backend is powered by Node.js and Express.js to provide secure and scalable APIs. User authentication is implemented with JWT for secure sessions, and MongoDB is used to store user, product, and cart data. This clone delivers a seamless shopping experience with a user interface closely resembling Amazon's.",
+      "A full-featured e-commerce platform built with the MERN stack and real-time capabilities. Inventory updates are pushed live over WebSocket (Socket.io), so stock levels stay accurate for high concurrent user loads. The Stripe payment gateway is integrated behind a secure checkout flow with comprehensive error handling for reliable transactions. Product discovery is powered by Elasticsearch with advanced filtering, sorting, and full-text search, improving search accuracy by 40%.",
     tools: [
-      "HTML",
-      "CSS",
-      "JSX",
       "React Js",
-      "React Redux",
-      "React Router",
       "Node Js",
       "Express",
       "MongoDB",
-
+      "Socket.io",
+      "Elasticsearch",
+      "Stripe API",
     ],
     role: "Full Stack Developer",
     code: "",
@@ -28,42 +25,22 @@ export const projectsData = [
   },
   {
     id: 2,
-    name: "Portfolio Website",
+    name: "Task Management System with Microservices",
     description:
-      "I have designed and developed this portfolio website while practicing Next.js. The portfolio is fully responsive, ensuring an optimal user experience across all devices. I deployed this portfolio using Vercel to create a live link.",
+      "A microservices-based task management system architected around independent services for authentication, notifications, and tasks. A Redis caching layer cut database load by 50% and improved API response times by 60%. All services are containerized with Docker, enabling straightforward scaling and simplified, repeatable deployments, with PostgreSQL as the primary data store and a Next.js frontend.",
     tools: [
-      "HTML",
-      "Tailwind CSS",
-      "NextJS",
-      "JSX",
+      "Next Js",
+      "Express",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "Microservices",
     ],
-    role: "Frontend Developer",
+    role: "Full Stack Developer",
     code: "",
     demo: "",
-    image: travel,
+    image: ayla,
   },
-  // {
-  //   id: 3,
-  //   name: "Snapchat Clone (React Js , Firebase)",
-  //   description:
-  //     "Developed an engaging Snapchat Clone using React.js, allowing users to share and view pictures seamlessly. Integrated Firebase for real-time data storage.",
-  //   tools: ["React", "Bootstrap", "SCSS", "Express", "Firebase"],
-  //   code: "",
-  //   role: "Full Stack Developer",
-  //   demo: "",
-  //   image: realEstate,
-  // },
-  // {
-  //   id: 4,
-  //   name: "Resume Builder (React Js , Firebase)",
-  //   description:
-  //     "Developed a web application using React.js for creating and customizing professional resumes.Enabled users to download resumes in multiple formats (PDF, DOCX).",
-  //   tools: ["ReactJS", "Material UI", "Redux", "Sun Editor", "Calendar"],
-  //   code: "",
-  //   demo: "",
-  //   image: ayla,
-  //   role: "Full Stack Developer",
-  // },
 ];
 
 // Do not remove any property.
@@ -78,4 +55,16 @@ export const projectsData = [
 //     code: '',
 //     demo: '',
 //     image: crefin,
+// },
+
+// {
+//   id: 3,
+//   name: "Portfolio Website",
+//   description:
+//     "I have designed and developed this portfolio website while practicing Next.js. The portfolio is fully responsive, ensuring an optimal user experience across all devices. I deployed this portfolio using Vercel to create a live link.",
+//   tools: ["HTML", "Tailwind CSS", "NextJS", "JSX"],
+//   role: "Frontend Developer",
+//   code: "",
+//   demo: "",
+//   image: travel,
 // },

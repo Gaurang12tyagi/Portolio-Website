@@ -19,5 +19,5 @@ delivering measurable engineering outcomes in Agile teams.`,
   leetcode: "https://leetcode.com/u/Gaurang_Tyagi/",
   devUsername: "tyagiGaurang",
   resume:
-    "https://drive.google.com/file/d/1XJcxbzHSE_yFVsFM6yt2p2Q0KBcG6eQ-/view?usp=drive_link",
+    "https://drive.google.com/file/d/1PMuCCkKQk8KCZmC1_hO64vT8P_r6-1ft/view?usp=drive_link",
 };
