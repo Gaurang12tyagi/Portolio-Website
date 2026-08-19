@@ -1,4 +1,3 @@
-import ayla from "/public/image/ayla.jpg";
 import crefin from "/public/image/crefin.jpg";
 import realEstate from "/public/image/real-estate.jpg";
 import travel from "/public/image/travel.jpg";
