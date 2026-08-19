@@ -45,26 +45,6 @@ export const projectsData = [
     demo: "",
     image: crefin,
   },
-  {
-    id: 3,
-    name: "Task Management System with Microservices",
-    description:
-      "A microservices-based task management system architected around independent services for authentication, notifications, and tasks, fronted by a Next.js dashboard with drag-and-drop boards and role-based views. A Redis caching layer cut database load by 50% and improved API response times by 60%. All services are containerized with Docker, enabling straightforward scaling and simplified, repeatable deployments, with PostgreSQL as the primary data store.",
-    tools: [
-      "Next Js",
-      "React Js",
-      "Redux",
-      "Express",
-      "PostgreSQL",
-      "Redis",
-      "Docker",
-      "Microservices",
-    ],
-    role: "Full Stack Developer",
-    code: "",
-    demo: "",
-    image: ayla,
-  },
 ];
 
 // Do not remove any property.
@@ -82,7 +62,7 @@ export const projectsData = [
 // },
 
 // {
-//   id: 4,
+//   id: 3,
 //   name: "Portfolio Website",
 //   description:
 //     "I have designed and developed this portfolio website while practicing Next.js. The portfolio is fully responsive, ensuring an optimal user experience across all devices. I deployed this portfolio using Vercel to create a live link.",

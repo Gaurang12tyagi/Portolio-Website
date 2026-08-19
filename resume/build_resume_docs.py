@@ -114,15 +114,6 @@ PROJECTS = [
             "Implemented advanced filtering, sorting, and search UI backed by Elasticsearch, improving search accuracy by 40%.",
         ],
     },
-    {
-        "title": "Task Management System with Microservices",
-        "stack": "Next.js, React.js, Redux, Express.js, PostgreSQL, Redis, Docker",
-        "bullets": [
-            "Architected a microservices-based task management system with independent services for authentication, notifications, and tasks, fronted by a Next.js dashboard with drag-and-drop boards and role-based views.",
-            "Implemented a Redis caching layer that reduced database load by 50% and improved API response times by 60%.",
-            "Deployed containerized services with Docker, enabling straightforward scaling and simplified, repeatable deployments.",
-        ],
-    },
 ]
 
 EDUCATION = [
